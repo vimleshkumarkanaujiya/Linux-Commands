@@ -45,3 +45,21 @@
     - Example: `sudo yum install package_name`
 
 These are just a few examples of Linux commands. There are many more available, each serving different purposes. Remember to consult the relevant documentation or use the `man` command for more information on specific commands.
+
+
+# Wifi Icon Missing
+Run Command to turn **off** and then turn **on** NetworkManager Command Line Interface.
+
+Step 1 :
+
+`sudo nmcli networking off`
+
+Step 2 : 
+
+`sudo nmcli networking on`
+
+Step 3 : 
+
+Turn on airplane mode and then turn off.
+
+WoW ! It's working.
